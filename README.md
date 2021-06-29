@@ -10,7 +10,7 @@ cd task_scheduler
 ./gradlew bootRun 
 ```
 ## Getting Started
-#### this service works under the premise that the [random task generator](https://github.com/bi-lriveros/schedulator) is running at localhost:8080
+#### this service works on the premise that the [random task generator](https://github.com/bi-lriveros/schedulator) is running at localhost:8080
 
 to obtain the assignments, once the service is up and running, do a GET request to the next URL
 ```sh
