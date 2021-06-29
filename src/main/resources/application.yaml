@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: local
+
+---
+
+spring:
+  profile: local
+  main:
+    lazy-initialization: true
+
+server:
+  port: 8090
+  address: 127.0.0.1
+  error:
+    include-message: always
